@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1"
+        android:rowCount="7"
+        android:columnCount="2">
+
+
+        <TextView
+            android:text="Email* :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuEmail"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd"   />
+
+        <TextView
+            android:text="First Name* :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuFirst"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+        <TextView
+            android:text="Last Name* :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuLast"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+        <TextView
+            android:text="City :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuCity"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+        <TextView
+            android:text="Country :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuCountry"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+        <TextView
+            android:text="Postal Code :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuPostal"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+        <TextView
+            android:text="Phone No. :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:inputType="phone"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:id="@+id/ChangesuPhone"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#d4d8dd" />
+
+
+    </GridLayout>
+
+</LinearLayout>

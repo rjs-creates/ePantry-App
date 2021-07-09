@@ -1,0 +1,105 @@
+@string/appbar_scrolling_view_behavior;obj\Debug\90\res\layout\content_main.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.design.widget.AppBarLayout;obj\Debug\90\res\layout\activity_main.xml
+android.support.design.widget.BottomNavigationView;obj\Debug\90\res\layout\activity_main.xml
+android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\activity_main.xml
+android.support.v4.view.ViewPager;obj\Debug\90\res\layout\activity_main.xml
+android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\activity_main.xml
+android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\login.xml
+attr;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+attr;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\account.xml
+Button;obj\Debug\90\res\layout\login.xml
+Button;obj\Debug\90\res\layout\manualadd.xml
+Button;obj\Debug\90\res\layout\pantry.xml
+Button;obj\Debug\90\res\layout\rowoption.xml
+Button;obj\Debug\90\res\layout\scan.xml
+cache-path;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+declare-styleable;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+declare-styleable;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+dimen;obj\Debug\90\res\values\dimens.xml
+EditText;obj\Debug\90\res\layout\changeuserpass.xml
+EditText;obj\Debug\90\res\layout\edituser.xml
+EditText;obj\Debug\90\res\layout\linkpantry.xml
+EditText;obj\Debug\90\res\layout\login.xml
+EditText;obj\Debug\90\res\layout\manualadd.xml
+EditText;obj\Debug\90\res\layout\rowoption.xml
+EditText;obj\Debug\90\res\layout\signup.xml
+enum;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+enum;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+external-cache-path;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\48\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\48\jl\res\layout\zxingscannerfragmentlayout.xml
+FrameLayout;obj\Debug\90\res\layout\activity_main.xml
+FrameLayout;obj\Debug\90\res\layout\content_main.xml
+GridLayout;obj\Debug\90\res\layout\account.xml
+GridLayout;obj\Debug\90\res\layout\changeuserpass.xml
+GridLayout;obj\Debug\90\res\layout\edituser.xml
+GridLayout;obj\Debug\90\res\layout\linkpantry.xml
+GridLayout;obj\Debug\90\res\layout\manualadd.xml
+GridLayout;obj\Debug\90\res\layout\pantry.xml
+GridLayout;obj\Debug\90\res\layout\rowoption.xml
+GridLayout;obj\Debug\90\res\layout\signup.xml
+ImageView;obj\Debug\90\res\layout\account.xml
+item;obj\Debug\90\res\menu\bottom_nav_menu.xml
+item;obj\Debug\90\res\menu\menu_main.xml
+item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\account.xml
+LinearLayout;obj\Debug\90\res\layout\changeuserpass.xml
+LinearLayout;obj\Debug\90\res\layout\edituser.xml
+LinearLayout;obj\Debug\90\res\layout\linkpantry.xml
+LinearLayout;obj\Debug\90\res\layout\login.xml
+LinearLayout;obj\Debug\90\res\layout\manualadd.xml
+LinearLayout;obj\Debug\90\res\layout\pantry.xml
+LinearLayout;obj\Debug\90\res\layout\rowoption.xml
+LinearLayout;obj\Debug\90\res\layout\scan.xml
+LinearLayout;obj\Debug\90\res\layout\signup.xml
+LinearLayout;obj\Debug\90\res\layout\userdelete.xml
+menu;obj\Debug\90\res\menu\bottom_nav_menu.xml
+menu;obj\Debug\90\res\menu\menu_main.xml
+paths;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\90\res\layout\account.xml
+RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
+RelativeLayout;obj\Debug\90\res\layout\content_main.xml
+RelativeLayout;obj\Debug\90\res\layout\login.xml
+RelativeLayout;obj\Debug\90\res\layout\tile.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\2\jl\res\values\strings.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\attrs.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\strings.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\attrs.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\strings.xml
+resources;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\47\jl\res\values\strings.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\dimens.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+ScrollView;obj\Debug\90\res\layout\signup.xml
+string;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\2\jl\res\values\strings.xml
+string;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\values\strings.xml
+string;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\4\jl\res\values\strings.xml
+string;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\47\jl\res\values\strings.xml
+string;obj\Debug\90\res\values\strings.xml
+style;obj\Debug\90\res\values\styles.xml
+syncfusion.sfdatagrid.ScrollViewer;E:\2960\MyVersion\Capstone\App Dev\ePantryAppv3.12\ePantryAppv3.4\ePantryAppv3\ePantryAppv3\obj\Debug\90\lp\3\jl\res\layout\scrollviewer.xml
+Syncfusion.SfDataGrid.SfDataGrid;obj\Debug\90\res\layout\pantry.xml
+TextView;obj\Debug\90\res\layout\account.xml
+TextView;obj\Debug\90\res\layout\changeuserpass.xml
+TextView;obj\Debug\90\res\layout\edituser.xml
+TextView;obj\Debug\90\res\layout\linkpantry.xml
+TextView;obj\Debug\90\res\layout\login.xml
+TextView;obj\Debug\90\res\layout\manualadd.xml
+TextView;obj\Debug\90\res\layout\pantry.xml
+TextView;obj\Debug\90\res\layout\rowoption.xml
+TextView;obj\Debug\90\res\layout\scan.xml
+TextView;obj\Debug\90\res\layout\signup.xml
+TextView;obj\Debug\90\res\layout\tile.xml
+TextView;obj\Debug\90\res\layout\userdelete.xml
