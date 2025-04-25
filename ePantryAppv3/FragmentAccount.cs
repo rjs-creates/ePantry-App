@@ -11,7 +11,6 @@ using System.Linq;
 using System.Text;
 using System.Net.Http;
 using Newtonsoft.Json;
-//using Android.Support.V4.App;
 
 namespace ePantryAppv3
 {
@@ -21,13 +20,10 @@ namespace ePantryAppv3
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
             return inflater.Inflate(Resource.Layout.Account, container, false);  
         } 
 
@@ -330,39 +326,17 @@ namespace ePantryAppv3
             //submits user edit when pressing submit
             .SetPositiveButton("Submit", async delegate
             {
-            ////data being sent to the url through POST
-            //var postData = new Dictionary<string, string>()
-            //    {
-            //        { "action", "UpdateUser" },
-            //        { "UserID", User.userData.UserID.ToString() },
-            //        { "Username", view.FindViewById<EditText>(Resource.Id.ChangesuEmail).Text },
-            //        { "FirstName", view.FindViewById<EditText>(Resource.Id.ChangesuFirst).Text },
-            //        { "LastName", view.FindViewById<EditText>(Resource.Id.ChangesuLast).Text },
-            //        { "City", view.FindViewById<EditText>(Resource.Id.ChangesuCity).Text },
-            //        { "Country", view.FindViewById<EditText>(Resource.Id.ChangesuCountry).Text },
-            //        { "PostalCode", view.FindViewById<EditText>(Resource.Id.ChangesuPostal).Text },
-            //        { "PhoneNum", view.FindViewById<EditText>(Resource.Id.ChangesuPhone).Text },
-            //        { "ManualItemsAdded", User.userData.ManualItemsAdded.ToString() }
-            //    };
-
-            //// send post request
-            //await WebService.POSTRequest(postData);
-
-            ////get reply from post
-            //WebService.Reply reply = WebService.LastReply;
-
-            //if edit worked continue, else return
-            if (await User.UpdateUser(view.FindViewById<EditText>(Resource.Id.ChangesuEmail).Text, view.FindViewById<EditText>(Resource.Id.ChangesuFirst).Text, view.FindViewById<EditText>(Resource.Id.ChangesuLast).Text, view.FindViewById<EditText>(Resource.Id.ChangesuCity).Text, view.FindViewById<EditText>(Resource.Id.ChangesuCountry).Text, view.FindViewById<EditText>(Resource.Id.ChangesuPostal).Text, view.FindViewById<EditText>(Resource.Id.ChangesuPhone).Text, User.userData.ManualItemsAdded))
-            {
-                Toast.MakeText(Context, "Edit successful", ToastLength.Long).Show();
-            }
-            else
-            {
-                Toast.MakeText(Context, "Edit failed", ToastLength.Long).Show();
-                return;
-            }
-            })
-            .SetNegativeButton("Cancel", delegate
+                //if edit worked continue, else return
+                if (await User.UpdateUser(view.FindViewById<EditText>(Resource.Id.ChangesuEmail).Text, view.FindViewById<EditText>(Resource.Id.ChangesuFirst).Text, view.FindViewById<EditText>(Resource.Id.ChangesuLast).Text, view.FindViewById<EditText>(Resource.Id.ChangesuCity).Text, view.FindViewById<EditText>(Resource.Id.ChangesuCountry).Text, view.FindViewById<EditText>(Resource.Id.ChangesuPostal).Text, view.FindViewById<EditText>(Resource.Id.ChangesuPhone).Text, User.userData.ManualItemsAdded))
+                {
+                    Toast.MakeText(Context, "Edit successful", ToastLength.Long).Show();
+                }
+                else
+                {
+                    Toast.MakeText(Context, "Edit failed", ToastLength.Long).Show();
+                    return;
+                }
+            }).SetNegativeButton("Cancel", delegate
             {
                 alertbuilder.Dispose();
             });

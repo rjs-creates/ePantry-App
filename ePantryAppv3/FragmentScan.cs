@@ -34,9 +34,6 @@ namespace ePantryAppv3
             base.OnCreate(savedInstanceState);
             //Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             ZXing.Net.Mobile.Forms.Android.Platform.Init();
-
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -58,8 +55,6 @@ namespace ePantryAppv3
 
             Button AddManual = View.FindViewById<Button>(Resource.Id.buttonManualAdd);
             AddManual.Click += AddManual_Click;
-            //AlertDialog.Builder b = new AlertDialog.Builder(this);
-           
         }
 
         /// <summary>
@@ -131,15 +126,8 @@ namespace ePantryAppv3
                 }
                 //if the user has no linked pantry then set quantity to 0
                 else
-                {
-                    //if(date != null)
-                    //{
-
-                    //    datePick.Text = $"{date.Day}-{date.Month}-{date.Year}";
-                    //}
-                    //adds new item to inventory
-                 
-                        newItem = new Item((User.userData.ManualItemsAdded += 1).ToString(), name, weight, 0, User.userData.UserID, pic, date, null);
+                {                 
+                    newItem = new Item((User.userData.ManualItemsAdded += 1).ToString(), name, weight, 0, User.userData.UserID, pic, date, null);
                     AddToInventory(newItem);
                 }
 

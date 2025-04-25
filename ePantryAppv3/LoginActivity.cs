@@ -140,10 +140,7 @@ namespace ePantryAppv3
                     return;
                 }
             })
-            .SetNegativeButton("Cancel", delegate
-            {
-                
-            });
+            .SetNegativeButton("Cancel", delegate{});
             Android.Support.V7.App.AlertDialog dialog = alertbuilder.Create();
             dialog.SetTitle("Create a new User");
             dialog.Show();
@@ -184,15 +181,10 @@ namespace ePantryAppv3
                     Toast.MakeText(this, reply.Status, ToastLength.Long).Show();
                 }
             }
-
             else
             {
                 Toast.MakeText(this, "Please provide valid email address", ToastLength.Long).Show();
             }
         }
-
-
-
-        
     }
 }

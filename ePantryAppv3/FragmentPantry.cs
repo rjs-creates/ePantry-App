@@ -25,8 +25,6 @@ namespace ePantryAppv3
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your fragment here
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -243,7 +241,6 @@ namespace ePantryAppv3
                 Toast.MakeText(Context, reply.Status, ToastLength.Long).Show();
                 return;
             }
-            
         }
 
         /// <summary>
@@ -269,12 +266,7 @@ namespace ePantryAppv3
 
             //get reply from post
             WebService.Reply reply = WebService.LastReply;
-
-            //TESTING
-            Console.WriteLine(reply.Status);
-
             RetrievePantry();
-
         }
     }
 }

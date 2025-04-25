@@ -54,11 +54,7 @@ namespace ePantryAppv3
                 if (Quantity == 0)
                     return "-";
                 return $"{Quantity / ItemWeight:P}"; 
-            } }
-
-        //public int userid { get { return UserID; } set { this.UserID = value; } }
-
-        
+        } }        
 
         private Android.Graphics.Bitmap GetImageBitmapFromUrl(string url)
         {
@@ -79,10 +75,6 @@ namespace ePantryAppv3
             return imageBitmap;
         }
     }
-
-    
-
-    
 
     public class FoodDBItem
     {

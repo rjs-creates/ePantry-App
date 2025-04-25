@@ -18,7 +18,6 @@ namespace ePantryAppv3
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.SignUp);
-            // Create your application here
         }
     }
 }
