@@ -26,3 +26,8 @@ The Raspberry Pi acts as the hardware backend for the scale component. It perfor
 - **HX711 + Load Cell** (Weight sensor)
 - **Socket Communication** (Between Pi and app)
 - **Mysql** (For local persistence)
+
+## 🎥 Demo
+https://github.com/user-attachments/assets/f2948e99-ef1c-4b75-bff1-acd5e14759aa
+
+
